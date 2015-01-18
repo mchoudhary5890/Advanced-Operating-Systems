@@ -1,0 +1,98 @@
+ANTI-LRU
+
+a) RR
+
+409600:
+Total Requests: 90.
+Total Hits: 1.
+totalBytesReturned: 10389543.
+bytesReturnedFromCache32778.
+cacheEntryRemovalCount: 86.
+
+1024000:
+Total Requests: 90.
+Total Hits: 17.
+totalBytesReturned: 10248329.
+bytesReturnedFromCache1328218.
+cacheEntryRemovalCount: 64.
+
+1524000:
+Total Requests: 90.
+Total Hits: 55.
+totalBytesReturned: 9875300.
+bytesReturnedFromCache5589508.
+cacheEntryRemovalCount: 23.
+
+
+2048000:
+Total Requests: 90.
+Total Hits: 75.
+totalBytesReturned: 9511476.
+bytesReturnedFromCache7926230.
+cacheEntryRemovalCount: 0.
+
+
+b) LRU
+409600:
+Total Requests: 90.
+Total Hits: 0.
+totalBytesReturned: 10324779.
+bytesReturnedFromCache0.
+cacheEntryRemovalCount: 87.
+
+1024000:
+Total Requests: 90.
+Total Hits: 0.
+totalBytesReturned: 10600104.
+bytesReturnedFromCache0.
+cacheEntryRemovalCount: 83.
+
+1524000:
+Total Requests: 90.
+Total Hits: 0.
+totalBytesReturned: 10077413.
+bytesReturnedFromCache0.
+cacheEntryRemovalCount: 77.
+
+2048000:
+Total Hits: 75.
+totalBytesReturned: 9539490.
+bytesReturnedFromCache7949575.
+cacheEntryRemovalCount: 0.
+
+c) MAXS
+
+409600:
+Total Requests: 90.
+Total Hits: 26.
+totalBytesReturned: 10643488.
+bytesReturnedFromCache644347.
+cacheEntryRemovalCount: 58.
+
+1024000:
+Total Requests: 90.
+Total Hits: 56.
+totalBytesReturned: 10019368.
+bytesReturnedFromCache4064447.
+cacheEntryRemovalCount: 22.
+
+1524000:
+Total Requests: 90.
+Total Hits: 65.
+totalBytesReturned: 9663765.
+bytesReturnedFromCache5658520.
+cacheEntryRemovalCount: 11.
+
+2048000:
+Total Requests: 90.
+Total Hits: 75.
+totalBytesReturned: 9515238.
+bytesReturnedFromCache7929365.
+cacheEntryRemovalCount: 0.
+
+d) No Cache
+Total Requests: 90.
+Total Hits: 0.
+totalBytesReturned: 9908722.
+bytesReturnedFromCache0.
+cacheEntryRemovalCount: 0.
